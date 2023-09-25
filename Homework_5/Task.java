@@ -16,15 +16,7 @@ public class Task{
     static StringBuilder stringBuilder = new StringBuilder();
     public static void main(String[] args) {
         
-        //  Map<String, ArrayList<String>> phoneBook = new HashMap<>();
-        // addNumber("Иванов", "+79648725454", phoneBook);
-        // addNumber("Петров", "+79648775454", phoneBook);
-        // addNumber("Иванов","+79648711554", phoneBook);
-        // addNumber("Сидоров", "+7964873333", phoneBook);
-        // addNumber("Иванов", "+796432415454", phoneBook);
-        // addNumber("Петров", "+7962335454", phoneBook);
-        // printBook(phoneBook);
-        // revertBook(phoneBook);
+        
         addNumber();
         System.out.println(phoneBook);
         showContacts();
